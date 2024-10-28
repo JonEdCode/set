@@ -1,0 +1,17 @@
+numbers = {70,25,683,15,92,70,15}
+print(numbers)
+numbers.add(1000)
+print(numbers)
+#numbers.clear()
+print(numbers)
+numbers.remove(1000)
+print(numbers)
+
+set1 = {1000000,39,100,582,1257}
+set2 = {39,60,582,6012,793}
+print(set1.union(set2))
+print(set1.intersection(set2))
+print(set1.difference(set2))
+print(set2.difference(set1))
+print(set1.symmetric_difference(set2))
+
